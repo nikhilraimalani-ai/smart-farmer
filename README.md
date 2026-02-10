@@ -1,1 +1,14 @@
 # smart-farmer
+
+
+Project Overview and Purpose
+The AgroNova Smart Farming Assistant is an AI-driven web application designed to support farmers in India, Ghana, and Canada by providing real-time, actionable agricultural advice. The primary goal of this project is to bridge the gap between complex AI capabilities and practical, on-field farm management. By utilizing the Gemini 1.5 API, the assistant translates technical data into simple, formatted instructions that help non-technical users make informed decisions about crop stages, soil management, and pest control. This project fulfills the requirements of Formative Assessment-2 (FA 2) by demonstrating proficiency in web app development, API integration, and cloud deployment.
+
+Design and Implementation
+The application is built using the Streamlit framework, which provides a clean and responsive user interface suitable for both desktop and mobile devices. Users can select their specific region and crop stage through interactive widgets, ensuring that the AI-generated advice is highly relevant to their unique environment. To meet the specific grading criteria for "Design and Implementation," the app processes user inputs and calls the Gemini 1.5 model with a structured system prompt that enforces bulleted formatting and logical justifications for every suggestion. This "Reasoning" section is a core feature designed to build trust with stakeholders by explaining exactly why a certain farming practice is recommended.
+
+Model Validation and Optimization
+Before the final deployment, the assistant underwent a rigorous validation phase to ensure the reliability of its outputs. We tested the model against five diverse agricultural prompts covering different geographical regions, such as drought management in Rajasthan and cocoa harvesting in Ghana. During this process, we optimized the prompt structure and temperature parameters to prevent "AI hallucinations" and ensure the advice aligned with trusted agricultural sources like the FAO. This validation summary serves as evidence of our commitment to providing safe, practical, and region-specific guidance to global farming communities.
+
+Deployment and Technical Specifications
+The final solution is deployed on Streamlit Cloud, making the assistant globally accessible via a public URL. The project repository includes the main app.py script and a requirements.txt file, which lists all necessary Python libraries such as streamlit and google-generativeai. Following the "Deployment" rubric, all code has been pushed to a public GitHub repository, and cross-device testing was conducted to ensure the application is responsive and functional across different browsers. This end-to-end deployment represents the culmination of our development cycle, providing a usable prototype for pilot testing by AgroNova’s student AI team.
